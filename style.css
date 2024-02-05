@@ -1,0 +1,596 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family:Arial;
+}
+
+/* navbar1 */
+.navbar{
+    height:60px;
+    width:100%;
+    background-color:black;
+    color:white;
+    display:flex;
+    align-items:center;
+     justify-content:space-evenly;  
+    position:relative;
+}
+.nav_logo{
+    height:50px;
+    width:100px;
+    
+}
+.logo img{
+height:100%;
+width:100%;
+
+}
+
+
+.border:hover {
+    border:1px solid white;
+    cursor:grabbing;
+}
+
+
+.nav_address p{
+    font-size:1rem;
+    margin-left:15px;
+    color:#CCB9A0;
+}
+
+.icon{
+    display:flex;
+    align-items: center;
+}
+.icon h2{
+    font-size:1.2rem;
+    margin-left:3px;
+}
+
+.nav_search{
+    display:flex;
+    height:40px;
+    width:800px;
+    background-color:pink;
+    border-radius: 5px;
+
+   
+}
+.nav_search select{
+     border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    width:50px;
+    background-color:#D4D4D4;
+    text-align:center;
+    border:none;
+    
+}
+.nav_search input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+}
+.nav_search i{
+    width:45px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#F3A847;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav_return p{
+    font-size:0.85rem;
+    font-weight:700;
+}
+.nav_sign p{
+    font-size:0.85rem;
+    font-weight:700;
+}
+span{
+    font-size:0.7rem;
+}
+.nav_cart{
+    display:flex;
+    
+}
+.nav_cart p{
+    margin-top:12px;
+}
+.nav_cart i{
+    font-size:30px;
+}
+
+/* navbar 2 */
+.navbar2{
+    display:flex;
+    height:40px;
+    justify-content: space-evenly;
+    background-color:#878888;
+    color:white;
+    align-items:center;
+
+}
+.option-all{
+    display:flex;
+}
+.option-menu{
+    display:flex;
+    width:70%;
+    font-size:0.8rem;
+}
+.option-menu h3{
+    
+    margin-left:15px;
+    
+}
+.option-deal{
+    font-size:0.9rem;
+    font-weight:700;
+}
+
+
+/* kitchen-section*/
+.kitchen{
+    background-image: url('images/kitchen.webp');
+    background-size:cover;
+  
+    height:400px;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+
+.msg{
+    background-color:white;
+    color:black;
+    height: 40px;
+    width:80%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:0.85rem;
+    margin-bottom:30px;
+}
+.msg a{
+    color:#0087B8;
+}
+
+/* shop section */
+
+.shop{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#E2E7E6;
+    justify-content: space-evenly;
+   
+}
+.box{
+    height:380px;
+    width:23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-top:15px;
+    margin-bottom:15px;
+
+}
+.cloth{
+    height:250px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-size:cover;
+}
+.box-contain{
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.box-contain p{
+    color:#0087B8;
+}
+.box-contain p:hover {
+    color:#A82A2A;
+
+}
+
+
+/* box-2 */
+.box2{
+border:2px solid none;
+height:380px;
+/* overflow:scroll; */
+width:100%;
+margin-top:15px;
+background-color:white;
+}
+.box2 h2{
+    margin-left:1rem;
+    margin-top:15px;
+}
+.box2 p{
+    color:#0087B8;
+    margin:1rem;
+    margin-top:15px;
+}
+.box2 p:hover{
+    color:#A82A2A;
+}
+
+.box2 img{
+    height:210px;
+    
+    
+    padding:20px;
+    margin-top:4rem;
+    margin-bottom:4rem; 
+
+}
+
+/* foot1 */
+
+.foot1{
+    height:50px;
+    width:100%;
+    background-color:#37475A;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    
+}
+.foot1 h2{
+    font-size:0.85rem;
+
+}
+
+/* foot2 */
+.foot2{
+    display:flex;
+    color:white;
+    background-color:#797C7C;
+
+    height:300px;
+    justify-content:space-evenly;
+}
+.foot2 ul{
+    margin-top:20px;
+
+}
+.foot2 ul a{
+    display:block;
+    font-size:0.85rem;
+    color:#CCCECE;
+    margin-top:10px;
+}
+
+/* foot3 */
+.foot3{
+    background-color:#797C7C;
+    border-top:0.5px solid white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+    
+}
+.foot3  img{
+    height:50px;
+    width:100px;
+    background-size:cover;
+}
+
+/* foot4 */
+.foot4{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:80px;
+    background-color:#0F1111;
+    
+
+}
+.foot4 h1,span{
+    font-size:0.7rem;
+    color:white;
+    text-align: center;
+    padding-top:5px;
+}
+
+
+
+
+/* responsive */
+
+
+@media (max-width:1000px){
+
+  
+
+   /* box1 */
+
+
+    .shop{
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+       
+    }
+    .box{
+       
+        width:95%;
+        height:50%;
+        
+        
+        margin-top:15px;
+        margin-bottom:10px;
+    
+    }
+    .box h2,.box p{
+        font-size:3vw;
+        margin-left:40%;
+    }
+    .cloth{
+        height: 72vw;
+        margin-top:1rem;
+        margin-bottom:1rem;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   
+    /* box2 */
+    .box2{
+     
+        overflow:scroll;
+        
+        }
+    
+        /* foot2 */
+        .foot2{
+            display:flex;
+            color:white;
+            background-color:#797C7C;
+           
+            height:54vh;
+            justify-content:space-evenly;
+        }
+        .foot2 ul{
+            margin-top:20px;
+        
+        }
+        .foot2 ul a{
+            display:block;
+            font-size:0.85rem;
+            color:#CCCECE;
+            margin-top:10px;
+        }
+
+
+        /* navbar 2 */
+
+.option-all{
+    display:flex;
+    font-size:1.5vw;
+}
+.option-menu{
+    display:flex;
+    width:70%;
+    font-size:1.5vw;
+}
+
+.option-deal{
+    font-size:1.5vw;
+    font-weight:900;
+}
+     
+/* navbar1 */
+
+.nav_logo{
+    height: 4vw;
+    width: 8vw;
+    
+}
+
+
+
+.border:hover {
+    border:1px solid white;
+    cursor:grabbing;
+}
+
+
+.nav_address p{
+    font-size: 2vw;
+    margin-left: 1vw;
+    color:#CCB9A0;
+}
+
+
+.icon h2{
+    font-size: 2vw;
+    margin-left: 1vw;
+}
+
+.nav_search{
+    height: 4vw;
+    width: 50vw;
+
+   
+}
+
+
+
+
+.nav_return p{
+    font-size: 1.5vw;
+    
+}
+.nav_sign p{
+    font-size: 1.5vw;
+}
+span{
+    font-size:1.5vw;
+}
+
+.nav_cart p{
+    margin-top: 0.5vw;
+}
+.nav_cart i{
+    font-size:3vw;
+}
+        
+    
+}
+
+/* responsive 2 */
+
+@media (max-width:600px){
+
+    .kitchen{
+       
+        background-size:auto;
+        background-position:center;
+       
+    }
+
+    /* box 1 */
+    .shop{
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+       
+    }
+    .box{
+       
+        width:95%;
+        height:50%;
+        
+        
+        margin-top:15px;
+        margin-bottom:10px;
+    
+    }
+    .box h2,.box p{
+        font-size:3vw;
+        margin-left:40%;
+    }
+    .cloth{
+        height: 105vw;
+        margin-top:1rem;
+        margin-bottom:1rem;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+        background-size:cover;
+    }
+
+    /* navbar1 */
+
+.nav_logo{
+    height: 5vw;
+    width: 12vw;
+    
+}
+
+.nav_address p{
+    font-size: 2vw;
+    margin-left: 1vw;
+    color:#CCB9A0;
+}
+
+
+.icon h2{
+    font-size: 2vw;
+    margin-left: 0vw;
+}
+
+.nav_search{
+    height: 4vw;
+    width: 37vw;
+
+   
+}
+.nav_search select {
+   
+    width: 36px;
+}
+.nav_search i {
+    width: 18px;
+   
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+
+
+
+.nav_return p{
+    font-size: 2vw;
+    
+}
+.nav_sign p{
+    font-size: 2vw;
+}
+span{
+    font-size: 2vw;
+}
+
+.nav_cart p{
+    margin-top: 1.5vw;
+    font-size:2.5vw;
+    padding-right:2vw;
+}
+.nav_cart i{
+    font-size:4vw;
+}
+
+/* kitchen */
+.msg {
+ 
+    height: 72px;
+    width: 85%;
+    display: flex;
+    padding-left:7px;
+    font-size: 0.85rem;
+    margin-bottom: 30px;
+}
+/* foot2 */
+.foot2 ul a {
+   
+    font-size: 3vw;
+    
+    margin-top: 8px;
+}
+.foot2 {
+   
+    padding-right:10vw;
+    position: relative;
+   
+    height: 85vh;
+   
+    width:100%;
+}
+
+/* foot3 */
+.foot3 {
+
+    height: 43px;
+}
+/* foot4 */
+.foot4 span {
+    font-size: 3vw;
+}
+.foot4{
+    height:55px;
+}
+
+/* foot1 */
+.foot1{
+    height:35px;
+}
+
+}
